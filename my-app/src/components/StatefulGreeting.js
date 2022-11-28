@@ -12,11 +12,19 @@ class StatefulGreeting extends React.Component {
 
     handleClick(){
         // use setState to update 
+        // setState is asynchronous and executing in the background
         this.setState({
             introduction: "Goodbye!",
             buttonText: "Enter",
+        }, () => {
+        // excecutes when setState is finished 
+        console.log('new state', this.state.introduction);
+        console.log('new state', this.state.buttonText);
         });
+        // excecutes while setState is still working in the backgroud
         console.log(this.state.introduction);
+        console.log(this.state.buttonText);
+
     }
 
     render(){
