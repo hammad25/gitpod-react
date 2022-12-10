@@ -9,6 +9,11 @@ function ControlledFormsHooks() {
         console.log(name, category, comments );
     }
 
+    function handleNameChange(e){
+      setName(e.target.value)
+    }
+
+
   return (
         <div>
           <h2>Please fill out the form below:</h2>
@@ -16,7 +21,8 @@ function ControlledFormsHooks() {
                   <div>
                       <label htmlFor="id-name">Your name</label>
                       <input  
-                        onChange={(e)=> setName(e.target.value)} 
+                        // onChange={(e) => setName(e.target.value)}
+                        onChange={handleNameChange} 
                         value={name} 
                         id="id-name" 
                         name="name"

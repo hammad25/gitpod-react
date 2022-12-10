@@ -26,8 +26,14 @@ import './App.css';
 //Hooks
 // import ControlledFormsHooks from "./components/forms/ControlledFormsHooks"
 
-// useState with array
-import UseStateWithArrays from "./components/usestatewitharrays/UseStateWithArrays"
+// useState 
+// import UseStateWithArrays from "./components/usestate/UseStateWithArrays"
+// import UseStateWithObjects from "./components/usestate/UseStateWithObjects"
+import UseEffectCounterContainer from "./components/usestate/UseEffectCounterContainer"
+
+
+// import HooksCounter from "./components/usestate/HooksCounter"
+
 
 function App() {
   return (
@@ -49,7 +55,11 @@ function App() {
       {/* <LifeCyclesCWU/> */}
       {/* <ControlledFormsHooks/> */}
 
-      <UseStateWithArrays/>
+      {/* <UseStateWithArrays/> */}
+      {/* <UseStateWithObjects/>
+      <HooksCounter/> */}
+
+      <UseEffectCounterContainer/>
 
     </div>
   );
