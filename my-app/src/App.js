@@ -21,8 +21,13 @@ import './App.css';
 // life cycle 
 // import LifeCyclesCDM from './components/lifecycle/LifeCycleCDM'
 // import LifeCycleCDU from "./components/lifecycle/LifeCycleCDU"
-import LifeCyclesCWU from "./components/lifecycle/LifeCyclesCWU"
+// import LifeCyclesCWU from "./components/lifecycle/LifeCyclesCWU"
 
+//Hooks
+// import ControlledFormsHooks from "./components/forms/ControlledFormsHooks"
+
+// useState with array
+import UseStateWithArrays from "./components/usestatewitharrays/UseStateWithArrays"
 
 function App() {
   return (
@@ -41,8 +46,10 @@ function App() {
 
       {/* <LifeCyclesCDM/> */}
       {/* <LifeCycleCDU/> */}
-      <LifeCyclesCWU/>
+      {/* <LifeCyclesCWU/> */}
+      {/* <ControlledFormsHooks/> */}
 
+      <UseStateWithArrays/>
 
     </div>
   );
