@@ -29,10 +29,14 @@ import './App.css';
 // useState 
 // import UseStateWithArrays from "./components/usestate/UseStateWithArrays"
 // import UseStateWithObjects from "./components/usestate/UseStateWithObjects"
-import UseEffectCounterContainer from "./components/usestate/UseEffectCounterContainer"
+// import UseEffectCounterContainer from "./components/usestate/UseEffectCounterContainer"
 
 
 // import HooksCounter from "./components/usestate/HooksCounter"
+
+
+// HTTP requets
+import HTTPRequests from "./components/httprequests/HTTPRequests"
 
 
 function App() {
@@ -59,7 +63,9 @@ function App() {
       {/* <UseStateWithObjects/>
       <HooksCounter/> */}
 
-      <UseEffectCounterContainer/>
+      {/* <UseEffectCounterContainer/> */}
+
+      <HTTPRequests/>
 
     </div>
   );
