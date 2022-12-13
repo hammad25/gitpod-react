@@ -36,8 +36,9 @@ import './App.css';
 
 
 // HTTP requets
-import HTTPRequests from "./components/httprequests/HTTPRequests"
-
+// import HTTPRequests from "./components/httprequests/HTTPRequests"
+// import HTTPPost from "./components/httprequests/HTTPPost"
+import HTTPHooks from "./components/httprequests/HTTPHooks"
 
 function App() {
   return (
@@ -65,7 +66,11 @@ function App() {
 
       {/* <UseEffectCounterContainer/> */}
 
-      <HTTPRequests/>
+      {/* <HTTPRequests/> */}
+
+      {/* <HTTPPost/> */}
+      {/* <HTTPpostchallenge/> */}
+      <HTTPHooks/>
 
     </div>
   );

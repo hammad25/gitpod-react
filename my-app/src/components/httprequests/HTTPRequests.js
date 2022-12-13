@@ -35,7 +35,7 @@ export class HTTPRequests extends Component {
             {
                 posts.length ? (
                     posts.map( post => (
-                        <div>1
+                        <div>
                             <h2>{post.id}. {post.title}</h2>
                                 <h4>By User ID {post.userId}</h4>
                                 <p>{post.body}</p>
